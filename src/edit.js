@@ -45,6 +45,7 @@ export default function Edit( { attributes, setAttributes } ) {
 			align: newAlign === undefined ? 'none' : newAlign, 
 		} )
 	}
+		
 	return (
 		<>
 			<BlockControls>
